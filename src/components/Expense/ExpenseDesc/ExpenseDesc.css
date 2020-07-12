@@ -1,0 +1,45 @@
+.ExpenseDesc {
+	flex: 1;
+	margin:1rem;
+}
+
+.Expense {
+	border-top: 1px solid #ccc;
+	padding: 15px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Expense:nth-child(even) {
+	background: #f7f7f7;
+}
+
+.Expense:last-child {
+	border-bottom: 1px solid #ccc;
+}
+
+ .Heading {
+	font-weight: 400;
+	font-size: 18px;
+	color:#FF5049;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.Percent {
+	display:block;
+	padding:0px 7px;
+	border-radius: 3px;
+	background: coral;
+	margin-left:5px;
+	color:#f7f7f7;
+}
+.Expense:hover .Value {
+	transform: translateX(-25px);
+}
+
+.Value {
+	display: flex;
+	align-items: center;
+	transition:.3s;
+}

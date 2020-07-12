@@ -1,0 +1,18 @@
+.Expense {
+	width:30%;
+	background: #ec4b49;
+	display: flex;
+	justify-content: space-between;
+	margin:0 auto;
+	padding:10px;
+	
+}
+
+.Percent {
+	display: block;
+	padding:0 15px;
+	background: white;
+	border-radius: 3px;
+	margin-left: 5px;
+	color:#b9542e;
+}

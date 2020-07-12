@@ -1,0 +1,34 @@
+.IncomeDesc {
+	flex:1;
+	margin: 1rem;
+}
+.Heading {
+	font-weight: 400;
+	font-size: 18px;
+	color:aqua;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.Incomes {
+	border-top: 1px solid #ccc;
+	padding:15px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Incomes:nth-child(even) {
+	background: #f7f7f7;
+}
+.Incomes:last-child {
+	border-bottom: 1px solid #ccc;
+}
+
+.Value {
+	color:aqua;
+	transition:.3s;
+}
+
+.Incomes:hover .Value {
+	transform:translateX(-25px);
+}

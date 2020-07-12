@@ -1,0 +1,12 @@
+.Income {
+	width:30%;
+	background: #52bab5;
+	display: flex;
+	margin:0 auto;
+	justify-content: space-between;
+	padding:10px;
+	margin-bottom: 1rem;
+	
+}
+
+

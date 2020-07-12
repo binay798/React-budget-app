@@ -1,0 +1,33 @@
+.BudgetForm {
+	padding:1rem;
+	background: #f7f7f7;
+	display: flex;
+	justify-content: center;
+}
+
+.BudgetForm input {
+	font:inherit;
+	box-sizing: border-box;
+	padding:10px;
+	border:2px solid #eee;
+	border-radius: 6px;
+	outline: none;
+	transition: .3s;
+}
+
+.BudgetForm select {
+	padding:10px;
+	font:inherit;
+	border:2px solid #eee;
+	background: white;
+	border-radius: 6px;
+	outline: none;
+}
+
+.BudgetForm select:focus {
+	border:2px solid coral;
+}
+
+.BudgetForm input:focus {
+	border:2px solid coral;
+}
